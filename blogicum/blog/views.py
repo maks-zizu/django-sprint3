@@ -51,4 +51,3 @@ def category_posts(request, category_slug):
         request, 'blog/category.html',
         {'category': category, 'post_list': post_list}
     )
-
